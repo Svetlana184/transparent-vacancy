@@ -1,0 +1,25 @@
+{
+  "name": "transparent-vacancy",
+  "version": "1.0.0",
+  "description": "Анализатор вакансий Калининградской области (КАНТКОД) — Этап 2",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js run",
+    "api": "node src/main.js run --mode api",
+    "local": "node src/main.js run --mode local --file data/test_vacancies.json",
+    "schedule": "node src/main.js schedule",
+    "ping": "node scripts/ping-api.js"
+  },
+  "dependencies": {
+    "cron": "^3.1.6",
+    "dotenv": "^16.4.5",
+    "js-yaml": "^4.1.0",
+    "zod": "^3.23.8"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+  
+}
+

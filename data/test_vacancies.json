@@ -1,0 +1,60 @@
+[
+  {
+    "vacancy": {
+      "id": "test-001-ideal",
+      "job-name": "Инженер по метрологии",
+      "vac_url": "https://trudvsem.ru/vacancy/card/test-001",
+      "salary": "от 45000 до 66000",
+      "salary_min": 45000,
+      "salary_max": 66000,
+      "currency": "руб.",
+      "employment": "Полная занятость",
+      "schedule": "Полный рабочий день",
+      "duty": "Выполнение поверки и калибровки средств измерений. Оформление результатов работ.",
+      "requirements": "Высшее образование. Опыт работы от 1 года.",
+      "addresses": { "address": [{ "location": "г. Калининград, ул. Больничная, 4" }] }
+    }
+  },
+  {
+    "vacancy": {
+      "id": "test-002-missing",
+      "job-name": "Помощник повара",
+      "vac_url": "https://trudvsem.ru/vacancy/card/test-002",
+      "salary_min": null,
+      "salary_max": null,
+      "employment": "Полная занятость",
+      "schedule": "Сменная работа",
+      "duty": "Помощь на кухне.",
+      "requirements": "",
+      "addresses": { "address": [] }
+    }
+  },
+  {
+    "vacancy": {
+      "id": "test-003-ambiguous",
+      "job-name": "Менеджер по продажам",
+      "vac_url": "https://trudvsem.ru/vacancy/card/test-003",
+      "salary": "достойная оплата",
+      "employment": "Полная занятость",
+      "schedule": "Гибкий график",
+      "duty": "Разные задачи в отделе продаж. Зарплата по договоренности.",
+      "requirements": "Коммуникабельность.",
+      "addresses": { "address": [{ "location": "г. Калининград" }] }
+    }
+  },
+  {
+    "vacancy": {
+      "id": "test-004-contradiction",
+      "job-name": "ОператорCall-центра",
+      "vac_url": "https://trudvsem.ru/vacancy/card/test-004",
+      "salary_min": 80000,
+      "salary_max": 120000,
+      "currency": "руб.",
+      "employment": "Полная занятость",
+      "schedule": "Полный рабочий день",
+      "duty": "Подработка на 2 часа в день. Обзвон клиентов.",
+      "requirements": "Опыт от 1 года.",
+      "addresses": { "address": [{ "location": "г. Калининград" }] }
+    }
+  }
+]

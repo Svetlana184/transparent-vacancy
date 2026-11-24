@@ -1,0 +1,15 @@
+api:
+  url: "http://opendata.trudvsem.ru/api/v1/vacancies/region/39"
+  region: 39
+  pages_limit: 2
+  page_size: 25
+  max_vacancies: 50
+
+schedule:
+  cron: "0 9 * * *"
+
+mode: api
+
+report:
+  output_dir: "data/reports"
+  latest_file: "latest.json"
